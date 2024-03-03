@@ -230,17 +230,21 @@ function handleTouchMove(evt) {
         if (xDiff > 0) {
             /* left swipe */
             slideLeft();
+            setTwo();
         } else {
             /* right swipe */
             slideRight();
+            setTwo();
         }                       
     } else {
         if (yDiff > 0) {
             /* up swipe */
             slideUp();
+            setTwo();
         } else { 
             /* down swipe */
             slideDown();
+            setTwo();
         }                                                                 
     }
     /* reset values */
